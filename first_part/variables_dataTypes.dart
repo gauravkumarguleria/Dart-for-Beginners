@@ -10,8 +10,7 @@ writing a program, we first need to memorize that information. Later, we can rec
 
 Here, the general name of this data that we use in 
 programming in programming is variable.
-Now these variables are kept in different 
-data types where they are kept in memory.
+Now these variables are kept in different data types where they are kept in memory.
 
  Because when we think about it, there is no need for 
  the same amount of memory for a text information and 
