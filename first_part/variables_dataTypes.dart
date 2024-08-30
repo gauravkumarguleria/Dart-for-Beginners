@@ -30,6 +30,7 @@ Now these variables are kept in different data types where they are kept in memo
    data, we use the var keyword
  */
 
+/*
 // Number Data Types
 main(List<String> args) {
 //int datatype
@@ -73,29 +74,37 @@ main(List<String> args) {
   num1 = 5; // storing integer values in double values
 } 
 
-//String Data Type
-/* main(List<String> args) {
-   String courseName='Dart Programming';
-   String lesson;
-   lesson="String Data Type";
-   courseName='Dart\'s Lessons';
-   courseName="Dart's Lessons";
-   print(courseName +" "+ lesson);
-   print("$courseName $lesson ");
-   print("Lorem Ipsum is simply dummy"
-   "text of the printing and typesetting "
-   "industry. Lorem Ipsum has been the industry's"
-    "standard dummy text ever since the 1500s,"
-     "when an unknown printer took a galley of"
-      "type and scrambled it to make a type specimen book." 
-     " It has survived not only five centuries, but also ");
+*/
 
-     int num1=5;
-     int num2=7;
-     print("num1+num2");
-     print("$num1+$num2");
-     print("${num1+num2}");
- } */
+/*
+//String Data Type
+main(List<String> args) {
+  String courseName = 'Dart Programming';
+  String lesson;
+  lesson = "String Data Type";
+  courseName = 'Dart\'s Lessons'; //escape character
+  courseName = "Dart's Lessons";
+
+  print(courseName + " " + lesson); //combining string
+
+  print("$courseName $lesson "); //Concept of Interpolation
+
+  print("Lorem Ipsum is simply dummy"
+      "text of the printing and typesetting "
+      "industry. Lorem Ipsum has been the industry's"
+      "standard dummy text ever since the 1500s,"
+      "when an unknown printer took a galley of"
+      "type and scrambled it to make a type specimen book."
+      " It has survived not only five centuries, but also ");
+
+  int num1 = 5;
+  int num2 = 7;
+  print("num1+num2");
+  print("$num1+$num2");
+  print("${num1 + num2}");
+} 
+*/
+
 
 //Final and Const Concepts
 /*
