@@ -1,17 +1,22 @@
 /* Variable and Data Types
 The first thing to do to perform an operation is to store that data. When you want to do the operation, it is necessary to recall the data from the memory. The recall job here is called "Variable".
+
  In other words, the definitions we have made to 
  keep the data we process in the programming language 
  in the memory of the computer are called variables.
+
 In other words, in order to be able to operate while 
 writing a program, we first need to memorize that information. Later, we can recall that information from memory and do our operations.
+
 Here, the general name of this data that we use in 
 programming in programming is variable.
 Now these variables are kept in different 
 data types where they are kept in memory.
+
  Because when we think about it, there is no need for 
  the same amount of memory for a text information and 
  a number information.  
+
  Data Types;
  -String; Textual Expressions
  -Number,
@@ -25,7 +30,6 @@ data types where they are kept in memory.
   If we do not know or do not want to specify the type of
    data, we use the var keyword
  */
-
 
 // Number Data Types
 /* main(List<String> args) {
@@ -62,8 +66,8 @@ print(isTrue);
  num1=5;
  } */
 
- //String Data Type
- /* main(List<String> args) {
+//String Data Type
+/* main(List<String> args) {
    String courseName='Dart Programming';
    String lesson;
    lesson="String Data Type";
@@ -86,17 +90,15 @@ print(isTrue);
      print("${num1+num2}");
  } */
 
- //Final and Const Concepts
+//Final and Const Concepts
 
- main(List<String> args) {
-  final country="Canada";
+main(List<String> args) {
+  final country = "Canada";
   //country="United States ";
 
-  const num1=5;
+  const num1 = 5;
   //num1=10;
 
   print(country);
   print(num1);
-
-
- }
+}
