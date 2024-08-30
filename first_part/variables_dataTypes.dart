@@ -32,21 +32,26 @@ Now these variables are kept in different data types where they are kept in memo
 
 // Number Data Types
 main(List<String> args) {
+//int datatype
   int number1 = 10;
   print(number1);
   number1 = 20;
   print(number1);
   print("number1");
+
+//double datatype
   double number2 = 10.5;
   print(number2);
   number2 = 25;
   print(number2);
 
+//num data types that includes both integers and floats
   num number3 = 5;
   print(number3);
   number3 = 6.5;
   print(number3);
 
+//hexadecimal numbers
   int hexa1 = 0xAABB;
   print(hexa1);
 
@@ -56,13 +61,16 @@ main(List<String> args) {
   print(num4 * num5);
   print(num4 - num5);
 
+//bool data types
   bool isTrue = true;
   bool isFalse = false;
   print(isTrue);
+  print(isFalse);
 
+// var variable
   var num1 = 5.6;
   print(num1);
-  num1 = 5;
+  num1 = 5; // storing integer values in double values
 } 
 
 //String Data Type
