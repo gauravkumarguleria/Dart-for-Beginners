@@ -31,39 +31,39 @@ Now these variables are kept in different data types where they are kept in memo
  */
 
 // Number Data Types
-/* main(List<String> args) {
-  int number1=10;
+main(List<String> args) {
+  int number1 = 10;
   print(number1);
-  number1=20;
+  number1 = 20;
   print(number1);
   print("number1");
-  double number2=10.5;
+  double number2 = 10.5;
   print(number2);
-  number2=25;
+  number2 = 25;
   print(number2);
-  
-  num number3=5;
+
+  num number3 = 5;
   print(number3);
-  number3=6.5;
+  number3 = 6.5;
   print(number3);
 
-  int hexa1=0xAABB;
+  int hexa1 = 0xAABB;
   print(hexa1);
 
-  int num4=23;
-  int num5=3;
+  int num4 = 23;
+  int num5 = 3;
   print(num4 + num5);
   print(num4 * num5);
   print(num4 - num5);
 
- bool isTrue=true;
- bool isFalse=false;
-print(isTrue);
- 
- var num1=5.6;
- print(num1);
- num1=5;
- } */
+  bool isTrue = true;
+  bool isFalse = false;
+  print(isTrue);
+
+  var num1 = 5.6;
+  print(num1);
+  num1 = 5;
+} 
 
 //String Data Type
 /* main(List<String> args) {
@@ -90,7 +90,7 @@ print(isTrue);
  } */
 
 //Final and Const Concepts
-
+/*
 main(List<String> args) {
   final country = "Canada";
   //country="United States ";
@@ -101,3 +101,4 @@ main(List<String> args) {
   print(country);
   print(num1);
 }
+*/
